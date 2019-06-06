@@ -1,7 +1,7 @@
 package model
 
 type Fuga struct {
-	Id   int
-	Name string
-	Age  int
+	ID   int    `json:"id"`
+	Name string `json:"name"`
+	Age  int    `json:"age"`
 }
